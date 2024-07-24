@@ -1,0 +1,32 @@
+name: xylophone
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.0.0
+  english_words: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+  fonts:
+    - family: Sevillana
+      fonts:
+        - asset: font/Sevillana-Regular.ttf
+    - family: SourceSans3
+      fonts:
+        - asset: font/SourceSans3-VariableFont_wght.ttf
